@@ -1,0 +1,50 @@
+header {
+    text-decoration: none;
+    list-style: none;
+    background-color: #EE5253;
+    padding: 0;
+    margin: 0;
+    height: 3rem;
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+
+    background: linear-gradient(180deg, #EE5253 0%, #D92223 100%);
+    
+}
+nav {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav > span {
+    width: 100%;
+    margin-left: 1rem;
+}
+
+nav > span > a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav > a {
+    color: white;
+    display: flex;
+    margin-left: 1rem;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+.tt-icon {
+    margin-right: 1rem;
+}
+
+.link-icon, .insta-icon, .tt-icon  {
+    font-size: 2rem;
+
+}
