@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto';
+}
+
 header {
     text-decoration: none;
     list-style: none;
@@ -8,7 +12,6 @@ header {
     display: flex;
     width: 100vw;
     max-width: 100%;
-
     background: linear-gradient(180deg, #EE5253 0%, #D92223 100%);
     
 }

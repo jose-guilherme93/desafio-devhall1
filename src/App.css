@@ -4,39 +4,115 @@
   box-sizing: border-box;
   
 }
+
 main {
   display: flex;
-  background: rgba(0, 0, 0, 0.8);
 }
 
-
 .bg-image {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  background-image: url(/src/assets/Rectangle\ 2.svg);
-  background-position: center;
+  background-image: url(/src/assets/background.svg);
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   color: #eee;
+  overflow: hidden;
 }
 
 .main-text {
   display: flex;
-  left: 59px;
   width: 100vw;
   height: 100vh;
-  margin-left: 59px;
+  margin-left: 3.68rem;
   flex-direction: column;
   justify-content: center;
-}
-
-section * {
   font-family: 'Roboto';
 }
-section > h1 {
-  font-size: 80px;
+
+.main-text p, h1, p {
+  align-items: flex-start;
 }
 
 .action-button {
   margin-top: 1rem;
+}
+
+.container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.description {
+  display: flex;
+  height: 30.12rem;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3rem;
+  margin: 0 14.68rem;
+}
+
+.main-description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+
+ .image-thinking-man {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+ }
+ 
+
+div.bar {
+  height: 7.5rem;
+  width: 100%;
+  background: #EAEAEA;
+  position: relative;
+  transform: rotate(-2.2deg);
+  z-index: 1;
+  top: -5rem;
+  
+}
+
+
+.contact {
+  display: flex;
+  padding-top: 4rem;
+  z-index: 33;
+  margin-top: -3rem;
+  position: relative;
+  justify-content: center;
+  background-color: white;
+  margin-bottom: 5rem;
+}
+
+.content {
+  
+  width: 1025px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  
+}
+
+form input[type=text], input[type=number]{
+  margin-right: 1rem;
+  outline: none;
+  width: 13.25em;
+  height: 40px;
+  border-radius: 7px;
+  border: solid 2px rgb(212, 212, 212);
+
+}
+form input[type=button]  {
+  width: 13em;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  background-color: #10AC84;
+  color: #eee;
 }
